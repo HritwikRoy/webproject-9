@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom bottom;
+}
+
+
+/* reusable component */
+
+.row {
+    max-width: 114.8rem;
+    margin: auto;
+}
+
+
+/* header sections */
+
+header {
+    background: linear-gradient(rgb(98, 91, 91, 0.9), rgb(98, 91, 91, 0.9));
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+}
+
+.com-name {
+    color: #ffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2.8rem;
+    float: left;
+    padding: 1.0rem;
+    margin-top: 3.8rem;
+}
+
+.com-name:hover {
+    background-color: #76c38f;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.main-nav {
+    float: right;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 1.0rem;
+    text-transform: uppercase;
+    margin-top: 5.5rem;
+    font-size: 1.3rem;
+}
+
+.main-nav li a:hover {
+    background-color: #76c38f;
+    border-radius: .3rem;
+    transition: .3s;
+}
+
+#home {
+    background-color: #76c38f;
+    border-radius: .3rem;
+}
+
+
+/* text box */
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.text-box h2 {
+    font-size: 4.6rem;
+}
+
+.text-box p {
+    margin-top: 2.0rem;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    margin-bottom: 3.9rem;
+}
+
+.btn {
+    background-color: #76c38f;
+    border-bottom: .3rem solid #32593f;
+    border-radius: 1.0rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 3.0rem;
+    padding: 1.0rem;
+    color: #fff;
+}
+
+
+/* services section */
+
+.service {
+    /* width: 120rem;*/
+    height: 40rem;
+    margin-top: 6.0rem;
+}
+
+
+/*section {
+    margin-bottom: 54rem;
+}*/
+
+.box {
+    background-color: rgb(126, 124, 124);
+    width: 22.5rem;
+    height: 30rem;
+    padding-top: 2.3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+.box:hover {
+    background-color: #76c38f;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.box i {
+    font-size: 12rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff
+}
+
+.box h2 {
+    text-align: center;
+    font-size: 3.2rem;
+    color: #fff;
+    padding-top: 1.8rem;
+}
+
+.box p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-top: 1.0rem;
+}
+
+
+/*  latest work  */
+
+.work h2 {
+    width: 26rem;
+    height: 5.2rem;
+    background-color: #303030;
+    border-radius: .8rem;
+    margin: auto;
+    padding-top: .5rem;
+    color: #fff;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.latest-work {
+    height: 88.2vh;
+}
+
+.work-img img {
+    width: 35.2rem;
+    height: 23rem;
+}
+
+.work-img {
+    border: 5px solid rgb(126, 120, 120);
+}
+
+.work-img:hover {
+    border: 5px solid rgb(9, 211, 100);
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 39rem;
+    background: #303030;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+h4,
+h6,
+p {
+    color: #fff;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.9rem;
+}
+
+.resd {
+    font-size: 1.5rem;
+}
+
+.link ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 2.3rem;
+    line-height: 3.5rem;
+    color: #fff;
+}
+
+.link a:hover {
+    color: #10f558;
+    transition: 0.9s;
+}
+
+input {
+    width: 20rem;
+    height: 4.0rem;
+    border-radius: 1.0rem;
+}
+
+textarea {
+    width: 20rem;
+    height: 8.0rem;
+    border-radius: 1.0rem;
+}
+
+button {
+    width: 9.0rem;
+    height: 4.0rem;
+    border-radius: 1.0rem;
+    background-color: #76c38f;
+}
+
+button:hover {
+    background-color: rgb(38, 206, 108);
+    color: #fff;
+}
+
+
+/* foot-end */
+
+.foot-end {
+    height: 1.5rem;
+    border-top: .3rem solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+.foot-end p {
+    float: left;
+}
+
+.foot-end h2 {
+    float: right;
+    color: #fff;
+}
